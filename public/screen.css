@@ -55,6 +55,8 @@ figcaption {
 	display: flex;
 	justify-content: flex-end;
 	margin: 0;
+	position: relative;
+	left: 40%;
 }
 
 img {
@@ -127,4 +129,24 @@ footer {
 }
 a:visited {
 	color: Black;
+}
+
+.authorpic {
+	width: 20%;
+	border: none;
+	margin: none;
+	padding: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.triangle::after {
+	content: ‘’;
+	height: 0;
+	width: 0;
+	border: 10px solid transparent;
+	border-top-color: #cacaca;
+	float: right;
+	position: relative;
+	right: 17px;
+	top: 0px;
+	border-bottom: 0px;
 }
